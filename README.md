@@ -20,7 +20,7 @@ do all the other laravel packages you use.
 ## Versions and compatibility
 > **Note:** This documentation was written for Laravel 5.5.
 * PHP Version: ">=7.0"
-* Laravel/Lumen: "5.5.x|5.6.x|5.7.x|5.8.x"
+* Laravel/Lumen: "^5.4|^6.0"
 * PHP-CS-Fixer: "2.14.*"
 
 ## Installation
@@ -87,7 +87,7 @@ return [
 ];
 ```
 
-if you want to modify this yourself, just use artisan `artisan vendor:publish --provider="STS\Fixer\FixerServiceProvider"` 
+if you want to modify this yourself, just use artisan `php artisan vendor:publish --provider="STS\Fixer\FixerServiceProvider"` 
 and it will put the default configuration in 'config/fixer.php'. Check the  
 [PHP-CS-Fixer/README](https://github.com/FriendsOfPHP/PHP-CS-Fixer#usage) for valid rules.
 
